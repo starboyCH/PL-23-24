@@ -19,7 +19,7 @@ body{
 }
 body, footer, header{
 	display: flex;
-	width: 100vw;
+	width: 100%;
 	align-items: center;
 }
 header{
@@ -40,12 +40,11 @@ main{
 	font-size: clamp(0.85em, 4vw, 1.2em);
 	color: var(--dark-color);
 	width: clamp(200px, 80vw, 900px);
-	padding: 10px;
+	padding: 3vh 6px;
 }
 footer{
 	background-color: var(--dark-color);
 	color: var(--bg-color);
-	margin: auto;
 	padding: 16px;
 	font-weight: 500;
 	font-size: clamp(0.5em, 3vw, 0.9em)
